@@ -30,12 +30,11 @@ for folder in os.listdir():
 from films_data import films_data
 
 for folder in os.listdir():
-    csv_file_name = os.path.join(folder, "film_info.csv")
     for film in films_data:
-        for genre in film['gen']:
-            if genre['genre'] == folder:
-                csv_file_path =  csv_file_name
+        for genre_data in film['gen']:
+            if genre_data['genre'] == folder:
+                csv_file_path = os.path.join(folder, csv_file_name)
                 with open(csv_file_path,'a') as csv_file:
                     csv_writer = csv.writer(csv_file)
-                    csv_writer.writerow([film['title'],film['year'],film['rating'],film['type'], ', '.join(genre['genre'] for genre in film['gen'])])
+                    csv_writer.writerow([film['title'],film['year'],film['rating'],film['type'], ';'.join(genre_data['genre'] for genre_data in film['gen'])])
 
