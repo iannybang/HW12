@@ -1,1 +1,3 @@
-Choice Movie Actress: Fantasy
+Award Name: Teen Choice Award
+Award Type: Nominee
+Award: Choice Movie Actress: Fantasy

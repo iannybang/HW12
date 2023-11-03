@@ -1,1 +1,3 @@
-Best International Movie
+Award Name: MTV Movie Award
+Award Type: Nominee
+Award: Best International Movie
