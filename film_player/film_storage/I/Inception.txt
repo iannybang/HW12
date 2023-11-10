@@ -13,4 +13,4 @@ Profitable: False
 Oscar_nominated: False
 Oscar_win False
 Trailer: 
-Storage address: /Users/iannybang/PycharmProjects/HW12/video_manager/film_player/film_storage/I/Inception.txt
+Storage address: /Users/iannybang/PycharmProjects/HW12/film_player/film_storage/I/Inception.txt

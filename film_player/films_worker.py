@@ -1,6 +1,6 @@
 import os
 
-os.chdir("video_manager") #Open directory where the code is performed
+#Open directory where the code is performed
 
 class Film:
     def __init__(self, title):
