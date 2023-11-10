@@ -1,7 +1,3 @@
-import os
-
-#Open directory where the code is performed
-
 class Film:
     def __init__(self, title):
         self.title = title
@@ -58,7 +54,7 @@ class Film:
     def get_film_address(self):
         return self.storage_address
 
-#Check the code
+
 
 #Create new film in the class
 film_instance = Film("Inception")
