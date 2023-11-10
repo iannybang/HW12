@@ -1,0 +1,16 @@
+Title: Inception
+Year: 1000
+Description: 
+Director: 
+Cast: 
+Running time: 0.0
+Country: 
+Language: 
+Rating: 0.0
+Budget: 0
+Box_office: 0
+Profitable: False
+Oscar_nominated: False
+Oscar_win False
+Trailer: 
+Storage address: /Users/iannybang/PycharmProjects/HW12/video_manager/film_player/film_storage/I/Inception.txt
